@@ -89,9 +89,9 @@ git config --global color.ui auto
 3. Comprobar el estado del repositorio.
 4. Crear un fichero indice.txt con el siguiente contenido:
 
-Capítulo 1: Introducción a Git
-Capítulo 2: Flujo de trabajo básico
-Capítulo 3: Repositorios remotos
+>Capítulo 1: Introducción a Git
+>Capítulo 2: Flujo de trabajo básico
+>Capítulo 3: Repositorios remotos
 
 5. Comprobar de nuevo el estado del repositorio.
 6. Añadir el fichero a la zona de intercambio temporal.
@@ -99,10 +99,10 @@ Capítulo 3: Repositorios remotos
 8. Realizar un commit de los últimos cambios con el mensaje “Añadido índice del libro.” y ver el estado del repositorio.
 9. Cambiar el fichero indice.txt para que contenga lo siguiente:
 
-Capítulo 1: Introducción a Git
-Capítulo 2: Flujo de trabajo básico
-Capítulo 3: Gestión de ramas
-Capítulo 4: Repositorios remotos
+>Capítulo 1: Introducción a Git
+>Capítulo 2: Flujo de trabajo básico
+>Capítulo 3: Gestión de ramas
+>Capítulo 4: Repositorios remotos
 
 10. Mostrar los cambios con respecto a la última versión guardada en el repositorio.
 11. Hacer un commit de los cambios con el mensaje “Añadido capítulo 3 sobre gestión de ramas”.
