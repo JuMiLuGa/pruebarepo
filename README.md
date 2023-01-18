@@ -61,3 +61,52 @@ git pull --all
 8. Subimos o contido do repositorio local ao repositorio en liña co comando `git push -u origin main`
 9. Creamos o arquivo README.md
 10. Baixamos os arquivos do repositorio en liña ao local co comando `git pull --all`
+
+## Práctica 2: creación y actualización de repositorios
+
+```bash
+git diff
+```
+> Sirve para mostrar as diferencias entre commits
+
+```bash
+git show
+```
+> Sirve para mostrar visualmente as diferencias entre commits
+
+```bash
+git commit --amend -m "mensaje"
+```
+> Sirve para cambiar a mensaxe dun commit
+
+```bash
+git config --global color.ui auto
+```
+> Sirve para cambiar o color da interfaz
+
+1. Configurar Git definiendo el nombre del usuario, el correo electrónico y activar el coloreado de la salida. Mostrar la configuración final.
+2. Crear un repositorio nuevo con el nombre libro y mostrar su contenido.
+3. Comprobar el estado del repositorio.
+4. Crear un fichero indice.txt con el siguiente contenido:
+
+Capítulo 1: Introducción a Git
+Capítulo 2: Flujo de trabajo básico
+Capítulo 3: Repositorios remotos
+
+5. Comprobar de nuevo el estado del repositorio.
+6. Añadir el fichero a la zona de intercambio temporal.
+7. Volver a comprobar una vez más el estado del repositorio.
+8. Realizar un commit de los últimos cambios con el mensaje “Añadido índice del libro.” y ver el estado del repositorio.
+9. Cambiar el fichero indice.txt para que contenga lo siguiente:
+
+Capítulo 1: Introducción a Git
+Capítulo 2: Flujo de trabajo básico
+Capítulo 3: Gestión de ramas
+Capítulo 4: Repositorios remotos
+
+10. Mostrar los cambios con respecto a la última versión guardada en el repositorio.
+11. Hacer un commit de los cambios con el mensaje “Añadido capítulo 3 sobre gestión de ramas”.
+12. Mostrar los cambios de la última versión del repositorio con respecto a la anterior.
+13. Cambiar el mensaje del último commit por “Añadido capítulo 3 sobre gestión de ramas al índice.”
+14. Volver a mostrar los últimos cambios del repositorio.
+
