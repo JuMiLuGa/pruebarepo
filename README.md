@@ -117,3 +117,48 @@ Capítulo 4: Repositorios remotos
 13. Cambiar el mensaje del último commit por “Añadido capítulo 3 sobre gestión de ramas al índice.”
 14. Volver a mostrar los últimos cambios del repositorio.
 
+
+## Práctica 3: Historial de cambios
+
+```bash
+git reset --hard
+```
+> Sirve para eliminar todos los cambios no guardados en el directorio de trabajo y el área de preparación, y hace que la rama actual apunte al commit especificado.
+
+```bash
+git log
+```
+> Sirve para mostrar un registro de todos los cambios realizados en un repositorio.
+
+```bash
+git annotate
+```
+> Sirve para mostrar la línea de código específica y el autor que la modificó en cada línea del archivo especificado.
+
+## Pasos a seguir na práctica
+
+1. Mostrar el historial de cambios del repositorio.
+2. Crear la carpeta capitulos y crear dentro de ella el fichero capitulo1.txt con el siguiente texto:
+  Git es un sistema de control de versiones ideado por Linus Torvalds.
+
+3. Añadir los cambios a la zona de intercambio temporal.
+4. Hacer un commit de los cambios con el mensaje “Añadido capítulo 1.”
+5. Volver a mostrar el historial de cambios del repositorio.
+6. Crear el fichero capitulo2.txt en la carpeta capitulos con el siguiente texto.
+  El flujo de trabajo básico con Git consiste en: 1- Hacer cambios en el repositorio. 2- Añadir los cambios a la zona de      intercambio temporal. 3- Hacer un commit de los cambios.
+
+7. Añadir los cambios a la zona de intercambio temporal.
+8. Hacer un commit de los cambios con el mensaje “Añadido capítulo 2.”
+9. Mostrar las diferencias entre la última versión y dos versiones anteriores.
+10. Crear el fichero capitulo3.txt en la carpeta capitulos con el siguiente texto.
+  Git permite la creación de ramas lo que permite tener distintas versiones del mismo proyecto y trabajar de manera           simultanea en ellas.
+
+11. Añadir los cambios a la zona de intercambio temporal.
+12. Hacer un commit de los cambios con el mensaje “Añadido capítulo 3.”
+13. Mostrar las diferencias entre la primera y la última versión del repositorio.
+14. Añadir al final del fichero indice.txt la siguiente línea:
+  Capítulo 5: Conceptos avanzados
+
+15. Añadir los cambios a la zona de intercambio temporal.
+16. Hacer un commit de los cambios con el mensaje “Añadido capítulo 5 al índice.”.
+17. Mostrar quién ha hecho cambios sobre el fichero indice.txt.
