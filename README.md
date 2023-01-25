@@ -176,3 +176,35 @@ git checkout
 git clean
 ```
 > Sirve para eliminar los archivos sin seguimiento en un directorio de trabajo del repositorio.
+
+## Pasos a seguir na práctica
+
+1. Eliminar la última línea del fichero indice.txt y guardarlo.
+2. Comprobar el estado del repositorio.
+3. Deshacer los cambios realizados en el fichero indice.txt para volver a     la versión anterior del fichero.
+4. Volver a comprobar el estado del repositorio.
+5. Eliminar la última línea del fichero indice.txt y guardarlo.
+6. Añadir los cambios a la zona de intercambio temporal.
+7. Comprobar de nuevo el estado del repositorio.
+8. Quitar los cambios de la zona de intercambio temporal, pero mantenerlos    en el directorio de trabajo.
+9. Comprobar de nuevo el estado del repositorio.
+10. Deshacer los cambios realizados en el fichero indice.txt para volver a     la versión anterior del fichero.
+11. Volver a comprobar el estado del repositorio.
+12. Eliminar la última línea del fichero indice.txt y guardarlo.
+13. Eliminar el fichero capitulos/capitulo3.txt.
+14. Añadir un fichero nuevo captitulos/capitulo4.txt vacío.
+15. Añadir los cambios a la zona de intercambio temporal.
+16. Comprobar de nuevo el estado del repositorio.
+17. Quitar los cambios de la zona de intercambio temporal, pero mantenerlos     en el directorio de trabajo.
+18. Comprobar de nuevo el estado del repositorio.
+19. Deshacer los cambios realizados para volver a la versión del               repositorio.
+20. Volver a comprobar el estado del repositorio.
+21. Eliminar la última línea del fichero indice.txt y guardarlo.
+22. Eliminar el fichero capitulos/capitulo3.txt.
+23. Añadir los cambios a la zona de intercambio temporal y hacer un commit     con el mensaje “Borrado accidental.”
+24. Comprobar el historial del repositorio.
+25. Deshacer el último commit pero mantener los cambios anteriores en el 26. directorio de trabajo y la zona de intercambio temporal.
+27. Comprobar el historial y el estado del repositorio.
+28. Volver a hacer el commit con el mismo mensaje de antes.
+29. Deshacer el último commit y los cambios anteriores del directorio de       trabajo volviendo a la versión anterior del repositorio.
+30. Comprobar de nuevo el historial y el estado del repositorio.
