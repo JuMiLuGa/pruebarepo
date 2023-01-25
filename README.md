@@ -162,3 +162,17 @@ git annotate
 15. Añadir los cambios a la zona de intercambio temporal.
 16. Hacer un commit de los cambios con el mensaje “Añadido capítulo 5 al índice.”.
 17. Mostrar quién ha hecho cambios sobre el fichero indice.txt.
+
+## Práctica 3: Deshacer Cambios
+
+### Comandos empregados
+
+```bash
+git checkout
+```
+> Sirve para desplazarte entre las ramas creadas por git branch
+
+```bash
+git clean
+```
+> Sirve para eliminar los archivos sin seguimiento en un directorio de trabajo del repositorio.
