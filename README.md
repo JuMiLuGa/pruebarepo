@@ -208,3 +208,74 @@ git clean
 28. Volver a hacer el commit con el mismo mensaje de antes.
 29. Deshacer el último commit y los cambios anteriores del directorio de       trabajo volviendo a la versión anterior del repositorio.
 30. Comprobar de nuevo el historial y el estado del repositorio.
+
+
+## Práctica 4: Ramas
+
+### Comandos empregados
+
+```bash
+git branch bibliografia
+```
+> Sirve para crear una nueva rama llamada "bibliografia" en el repositorio local.
+
+```bash
+git branch -av
+```
+> Sirve para mostrar una lista de todas las ramas locales y remotas y su estado actual en el repositorio.
+
+```bash
+git checkout master
+```
+> Sirve para cambiar al estado de la rama "master" en el repositorio local.
+
+```bash
+git merge bibliografia
+```
+> Sirve para combinar los cambios de la rama "bibliografia" con la rama actual.
+
+```bash
+git log --graph --all --oneline
+```
+> Sirve para mostrar una representación gráfica y resumida del historial de commits en todas las ramas.
+
+## Pasos a seguir na practica
+
+1. Crear una nueva rama bibliografia y mostrar las ramas del repositorio.
+2.Crear el fichero capitulos/capitulo4.txt y añadir el texto siguiente
+    En este capítulo veremos cómo usar GitHub para alojar repositorios en remoto.
+
+3. Añadir los cambios a la zona de intercambio temporal.
+4. Hacer un commit con el mensaje “Añadido capítulo 4.”
+5. Mostrar la historia del repositorio incluyendo todas las ramas.
+6. Cambiar a la rama bibliografia.
+7. Crear el fichero bibliografia.txt y añadir la siguiente referencia
+    Chacon, S. and Straub, B. Pro Git. Apress.
+    
+8. Añadir los cambios a la zona de intercambio temporal.
+9. Hacer un commit con el mensaje “Añadida primera referencia bibliográfica.”
+10. Mostrar la historia del repositorio incluyendo todas las ramas.
+11. Fusionar la rama bibliografia con la rama master.
+12. Mostrar la historia del repositorio incluyendo todas las ramas.
+13. Eliminar la rama bibliografia.
+14. Mostrar de nuevo la historia del repositorio incluyendo todas las ramas.
+15. Crear la rama bibliografia.
+16. Cambiar a la rama bibliografia.
+17. Cambiar el fichero bibliografia.txt para que contenga las siguientes referencias:
+    Scott Chacon and Ben Straub. Pro Git. Apress.
+    Ryan Hodson. Ry’s Git Tutorial. Smashwords (2014)
+    
+18. Añadir los cambios a la zona de intercambio temporal y hacer un commit con el mensaje “Añadida nueva referencia bibliográfica.”
+19. Cambiar a la rama master.
+20. Cambiar el fichero bibliografia.txt para que contenga las siguientes referencias:
+    Chacon, S. and Straub, B. Pro Git. Apress.
+    Loeliger, J. and McCullough, M. Version control with Git. O’Reilly.
+    
+21.Añadir los cambios a la zona de intercambio temporal y hacer un commit con el mensaje “Añadida nueva referencia bibliográfica.”
+22. Fusionar la rama bibliografia con la rama master.
+23. Resolver el conflicto dejando el fichero bibliografia.txt con las referencias:
+    Chacon, S. and Straub, B. Pro Git. Apress.
+    Loeliger, J. and McCullough, M. Version control with Git. O’Reilly.
+    Hodson, R. Ry’s Git Tutorial. Smashwords (2014)
+24. Añadir los cambios a la zona de intercambio temporal y hacer un commit con el mensaje “Resuelto conflicto de bibliografía.”
+25. Mostrar la historia del repositorio incluyendo todas las ramas.
